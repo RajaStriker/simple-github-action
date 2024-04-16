@@ -1,0 +1,10 @@
+name: Run Simple Commands
+on: [push]
+
+
+jobs:
+  run shell command:
+    run on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "This is Striker from Eurus Technologies and this is first GitHubAction Job."
